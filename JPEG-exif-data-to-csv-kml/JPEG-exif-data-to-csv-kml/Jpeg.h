@@ -14,6 +14,7 @@ class Jpeg
         string imgDateTime;
         double latitude;
         double longitude;
+        string name;
 
     public:
         void readJpeg(string);
@@ -24,7 +25,7 @@ class Jpeg
         string getImgDateTime();
         double getLat();
         double getLong();
-
+        string getName();
 
 };
 
