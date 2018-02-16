@@ -1,3 +1,9 @@
+//Eli Koslofsky
+//2/15/2018
+//ExportJpeg.h:
+//Header file contains function prototypes for functions
+//found in Jpeg.cpp and member variables for the class
+
 #ifndef JPEG_H
 #define JPEG_H
 
@@ -15,6 +21,8 @@ class Jpeg
         double latitude;
         double longitude;
         string name;
+		string fullFilePath;
+		string ext;
 
     public:
         void readJpeg(string);
@@ -26,6 +34,8 @@ class Jpeg
         double getLat();
         double getLong();
         string getName();
+		string getFullFilePath();
+		string getExt();
 
 };
 
