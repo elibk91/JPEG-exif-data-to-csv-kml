@@ -3,7 +3,7 @@ Project takes directory of JPEG files, reads their exif data, and exports them t
 
 Contains an exe that can be run that features a command line program that prompts the user
 for a directory of jpegs, and then exports them to google earth kml using their lat/long
-and exports the exif data into a csv table.
+and exports the exif data into a csv file.
 
 Project is written in C++ and utilizes the std::filesystem, which compiles with C++14 and up.
 http://en.cppreference.com/w/cpp/experimental/fs/directory_iterator
